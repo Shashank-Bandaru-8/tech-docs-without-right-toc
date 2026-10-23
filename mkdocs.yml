@@ -29,5 +29,3 @@ plugins:
 
 theme:
   name: material
-  features:
-     - toc.integrate
