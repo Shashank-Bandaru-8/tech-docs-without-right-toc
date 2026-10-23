@@ -32,5 +32,3 @@ extra_css:
 
 theme:
   name: material
-  features:
-    - toc.integrate
