@@ -4,7 +4,7 @@ These are the options in the root `mkdocs.yml` and why each one is set.
 
 ## site_name
 
-Shown as the site title. It does not change the table of contents.
+MkDocs requires this field. Material would otherwise print it at the top of the left navigation. This sample hides that title with `extra_css`; it has nothing to do with `toc.integrate`.
 
 ## docs_dir
 
@@ -24,4 +24,8 @@ Set to `material`. The integrate feature belongs to that theme.
 
 ## theme.features
 
-`navigation.expand` keeps sections open. `toc.integrate` moves the on-page table of contents into the left navigation and omits the right-hand sidebar.
+`toc.integrate` moves the on-page table of contents into the left navigation and omits the right-hand sidebar.
+
+## extra_css
+
+Hides `.md-nav--primary > .md-nav__title` so `site_name` is not stuck at the top of the IDP sidebar.

@@ -20,7 +20,7 @@ The `nav` list is explicit. Pages that are not listed are omitted from the left 
 
 ### Theme features
 
-`navigation.expand` keeps sections open so you can see sibling pages and integrated headings at the same time. `toc.integrate` is the feature under test.
+`toc.integrate` is the feature under test. `navigation.expand` is not set, so left-nav sections can collapse.
 
 ## toc.integrate
 
