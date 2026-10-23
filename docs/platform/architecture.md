@@ -1,6 +1,13 @@
+---
+hide:
+  - toc
+---
+
 # Architecture
 
-Northwind Runtime is a small platform with a deliberate shape. This page is long so the integrated table of contents has a realistic outline: several level-two sections, each with a few level-three children.
+This page uses MkDocs Material front matter `hide: [toc]`. With `toc.integrate` still on, you may not notice it. After that feature is removed, compare this page with Security or Operations: those should still show the right-hand table of contents if IDP honors this option.
+
+Northwind Runtime is a small platform with a deliberate shape. This page is long so the heading tree is easy to compare.
 
 ## Runtime
 

@@ -16,4 +16,4 @@ No. Only sites whose `mkdocs.yml` includes the feature. This repository is one s
 
 ## Which page should I open first?
 
-Platform, then Architecture. It has the longest heading tree.
+Platform, then Architecture. It has the longest heading tree. Architecture also sets `hide: [toc]` in front matter so you can test that option after removing `toc.integrate`.
