@@ -27,8 +27,5 @@ nav:
 plugins:
   - techdocs-core
 
-extra_css:
-  - stylesheets/main.a1b2c3d4.min.css
-
 theme:
   name: material
