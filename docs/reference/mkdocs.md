@@ -29,3 +29,5 @@ Set to `material`. The integrate feature belongs to that theme.
 ## extra_css
 
 Hides `.md-nav--primary > .md-nav__title` so `site_name` is not stuck at the top of the IDP sidebar.
+
+IDP always sizes the article as if a right-hand table of contents were present (`max-width: calc(100% - 16.5rem * 2)`). That gap is from the reader, not from `toc.integrate`. This sample overrides it so the article uses the remaining width next to the left nav.

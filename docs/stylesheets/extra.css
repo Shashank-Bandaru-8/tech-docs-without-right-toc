@@ -1,3 +1,12 @@
 .md-nav--primary > .md-nav__title {
   display: none;
 }
+
+.md-sidebar--secondary {
+  display: none !important;
+}
+
+.md-content {
+  max-width: calc(100% - 16rem) !important;
+  margin-right: 0 !important;
+}

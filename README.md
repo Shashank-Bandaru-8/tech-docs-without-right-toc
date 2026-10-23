@@ -8,4 +8,6 @@ Open any page that has several headings, for example **Platform → Architecture
 
 `site_name` is required by MkDocs. IDP already removes the MkDocs header, so that title would otherwise sit at the top of the left nav. This sample hides it with `docs/stylesheets/extra.css`. That is unrelated to `toc.integrate`.
 
+The IDP reader also keeps a right-hand column reserved for the old table of contents. The same stylesheet reclaims that width.
+
 Preview locally with `mkdocs serve` after installing `mkdocs-techdocs-core`. Point a TechDocs build at this repository root, where `mkdocs.yml` lives.
