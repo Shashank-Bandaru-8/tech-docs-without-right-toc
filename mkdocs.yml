@@ -28,7 +28,7 @@ plugins:
   - techdocs-core
 
 extra_css:
-  - stylesheets/extra.css
+  - stylesheets/main.a1b2c3d4.min.css
 
 theme:
   name: material

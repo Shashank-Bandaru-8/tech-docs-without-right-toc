@@ -28,6 +28,8 @@ Set to `material`. The integrate feature belongs to that theme.
 
 ## extra_css
 
-Hides `.md-nav--primary > .md-nav__title` so `site_name` is not stuck at the top of the IDP sidebar.
+IDP sanitizes TechDocs HTML and only keeps stylesheet links whose href matches `main.<8 hex chars>.min.css` (plus Google Fonts). A normal `extra.css` is stripped, which is why the earlier width override did nothing.
 
-IDP always sizes the article as if a right-hand table of contents were present (`max-width: calc(100% - 16.5rem * 2)`). That gap is from the reader, not from `toc.integrate`. This sample overrides it so the article uses the remaining width next to the left nav.
+This sample names the file `stylesheets/main.a1b2c3d4.min.css` so it survives that allowlist. That is an experiment only, not a supported Kaiser workaround.
+
+The file hides the leftover `site_name` in the left nav, and it overrides IDP's `max-width: calc(100% - 16.5rem * 2)` plus Material's desktop `margin-right` so the article can fill the space next to the left nav.
