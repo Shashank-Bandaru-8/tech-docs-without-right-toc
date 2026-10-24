@@ -26,6 +26,8 @@ nav:
 
 plugins:
   - techdocs-core
+  - search
+  - meta
 
 theme:
   name: material
