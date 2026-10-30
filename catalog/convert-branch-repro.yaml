@@ -1,0 +1,12 @@
+apiVersion: harness.io/v1
+kind: Component
+type: service
+identifier: convert_branch_repro
+name: Convert branch repro
+owner: group:account/AI_Test_Automation
+spec:
+  lifecycle: experimental
+metadata:
+  description: YAML for this component exists only on branch convert-branch-repro, not on main. Register it in QA0 from this branch, then open it from the catalog with no branch query param.
+  annotations:
+    backstage.io/source-location: url:https://github.com/Shashank-Bandaru-8/tech-docs-without-right-toc
