@@ -5,7 +5,7 @@ identifier: testing_from_branch_workflow
 type: service
 owner: group:account/idp_team
 metadata:
-  description: Repro for IDP-11618
+  description: Repro for branch test
 spec:
   parameters:
     - title: Details
@@ -17,6 +17,9 @@ spec:
           type: "null"
           description: |
             This notice is display-only. Create should still work.
+        text field:
+          title: Text Field
+          type: string
         name:
           type: string
   steps:
