@@ -1,0 +1,27 @@
+apiVersion: harness.io/v1
+kind: Workflow
+name: Testing From Branch Workflow
+identifier: testing_from_branch_workflow
+type: service
+owner: group:account/idp_team
+metadata:
+  description: Repro for IDP-11618
+spec:
+  parameters:
+    - title: Details
+      required:
+        - name
+      properties:
+        harness_info:
+          title: Information on Adding Users to Harness
+          type: "null"
+          description: |
+            This notice is display-only. Create should still work.
+        name:
+          type: string
+  steps:
+    - id: log
+      name: Log
+      action: debug:log
+      input:
+        message: ${{ parameters.name }}
