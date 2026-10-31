@@ -5,7 +5,7 @@ identifier: testing_from_branch_workflow
 type: service
 owner: group:account/idp_team
 metadata:
-  description: Repro for branch test
+  description: Repro for branch testing with new commit
 spec:
   parameters:
     - title: Details
